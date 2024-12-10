@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Sawant - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content:center ;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover{
+            color: rgb(153,153,226);
+            font-size: 1.04rem;
+        }
+
+        footer{
+            background-color: #0e0e1a;
+           
+        }
+
+        .footer{
+            display: flex;
+            padding: 120px 122px;
+            justify-content: space-evenly ;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 233px;
+        }
+
+        .footer-rights{
+            text-align: center;
+            color: gray;
+            margin: -50px 0px 0px 0px;
+        }
+
+        h2{
+            padding: 50px 210px 50px 210px;
+        }
+        .purple{
+            color: rgb(170,107,228);
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Atharva's Portfolio</div>
+            <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h2 class="purple">
+        <ul>
+            <li><span id="element"></span></li>
+            <br>
+            <li><span id="element2"></span></li>
+            <br>
+            <li><span id="element3"></span></li>
+        </ul>
+    </h2>
+    <br>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Atharva's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html" style="text-decoration: none; color: white;">Home</a></li>
+                    <li><a href="projects.html" style="text-decoration: none; color: white;">Projects</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="about.html" style="text-decoration: none; color: white;">About</a></li>
+                    <li><a href="contactMe.html" style="text-decoration: none; color: white;">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="services.html" style="text-decoration: none; color: white;">Services</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; atharvasportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['I am an IT graduate passionate about leveraging technology to solve programming problems. With a strong foundation in programming, software development, and system analysis, I thrive in dynamic environments where I can apply my skills to create innovative solutions.'],
+          typeSpeed: 50,
+        });
+        var typed = new Typed('#element2', {
+          strings: [' My academic background has equipped me with expertise in areas such as database management and web development. I am also experienced in collaborating on projects, working with cross-functional teams, and adapting quickly to emerging technologies.'],
+          typeSpeed: 50,
+        });
+        var typed = new Typed('#element3', {
+          strings: ['I aim to contribute meaningfully to the tech industry by continuously learning and developing skills that drive efficiency, creativity, and growth. Lets connect and build something impactful together!'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
